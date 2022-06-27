@@ -138,7 +138,7 @@ header a:hover{
 	padding: 10px;
 }
 
-#boxes ibox img{
+#boxes .box img{
 	width: 90px;
 }
 
@@ -200,10 +200,14 @@ footer{
 		margin-top: 40px;
 	}
 
-	#newsletter button, 
-	.quote button{
+	#newsletter button{
 		display: block;
 		width: 100%;
+	}
+
+	.quote button{
+		display: center;
+		width: 92%;
 	}
 
 	#newsletter form input[type="email"]{
