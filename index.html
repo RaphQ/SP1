@@ -2,25 +2,64 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Document</title>
+	<meta name="viewport" content="with=device-width">
+	<title>Acme Web Design | Welcome</title>
 	<link rel="stylesheet" href="./assets/css/style.css">
 </head>
 <body>
 	<header>
-		Header
+		<div class="container">
+			<div id="branding">
+				<h1><span class="highlight">Acme</span> Web Design</h1>
+			</div>
+			<nav>
+				<ul>
+					<li class="current"><a href="index.html">Home</a></li>
+					<li><a href="about.html">About</a></li>
+					<li><a href="Services.html">Services</a></li>
+				</ul>
+			</nav>
+		</div>
 	</header>
-	<nav>
-		Nav
-	</nav>
-	<main>
-		Main
-	</main>
-	<aside>
-		Aside
-	</aside>
+
+	<section id="showcase">
+		<div class="container">
+			<h1>Affordable Professional Web Design</h1>
+			<p>
+				Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis voluptatibus fuga amet, ullam, hic earum veritatis molestiae, sint in est odit ipsam rerum nihil? Nam deleniti veniam eum minima obcaecati.
+			</p>
+		</div>
+	</section>
+
+	<section id="newsletter">
+		<div class="container">
+			<h1>Subscribe to our news letter</h1>
+			<form>
+				<input type="email" placeholder="Enter Email...">
+				<button type="Submit" class="btn_1">Subscribe</button>
+			</form>
+		</div>
+	</section>
+
+	<section id="boxes">
+		<div class="container">
+			<div class="box">
+				<img src="./img/html.png" alt="">
+				<h3>HTML Mark Up</h3>
+			</div>
+			<div class="box">
+				<img src="./img/css.png" alt="">
+				<h3>CSS 3 Styling</h3>
+			</div>
+			<div class="box">
+				<img src="./img/monitor.png" alt="">
+				<h3>Graphic Design</h3>
+			</div>
+		</div>
+	</section>
+
 	<footer>
-		Footer
+		<p>Acme Wed Design, Copyright &copy;</p>
 	</footer>
 </body>
 </html>
